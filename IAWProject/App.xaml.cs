@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace IAWProject
 {
@@ -6,9 +7,12 @@ namespace IAWProject
 	{
 		public App()
 		{
-			InitializeComponent();
+            //InitializeComponent();
 
-			MainPage = new IAWProjectPage();
+            MainPage = new ContentPage
+            {
+                Content = new Label { Text = "Testing" }
+            };
 		}
 
 		protected override void OnStart()

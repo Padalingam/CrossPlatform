@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace IAWProject
 {
@@ -6,7 +7,7 @@ namespace IAWProject
 	{
 		public IAWProjectPage()
 		{
-			InitializeComponent();
+			//InitializeComponent();
 		}
 	}
 }
